@@ -1,0 +1,25 @@
+:root {
+  --background-body: #2c2c2c;
+  --background: #242424;
+  --background-alt: #333333;
+  --selection: #161f27;
+  --text-main: #dbdbdb;
+  --text-bright: #fff;
+  --text-muted: #717880;
+  --links: #41adff;
+  --links-hover: #98cffa;
+  --focus: #0096bfab;
+  --border: #dbdbdb;
+  --border-radius: 5px;
+  --code: #ffbe85;
+  --animation-duration: 0.3s;
+  --button-hover: #636363;
+  --table-hover: var(--button-hover);
+  --scrollbar-thumb: var(--button-hover);
+  --scrollbar-thumb-hover: color-mod(var(--scrollbar-thumb) lightness(+8%));
+  --form-placeholder: #a9a9a9;
+  --form-text: #fff;
+  --variable: #d941e2;
+  --highlight: #efdb43;
+  --select-arrow: svg-load('./assets/select-arrow.svg', fill: #efefef);
+}

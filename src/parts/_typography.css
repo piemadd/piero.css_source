@@ -1,0 +1,203 @@
+h1 {
+    font-size: 2.2em;
+    margin-top: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: max-content;
+}
+
+h2, h3, h4, h5, h6 {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: max-content;
+}
+
+footer {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	margin: 0 auto;
+	border: 0px;
+	transition: var(--animation-duration);
+	width: 100%;
+}
+
+p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: max-content;
+}
+
+q {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: 100%;
+}
+
+blockquote {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: 100%;
+}
+
+code {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: 100%;
+}
+
+form {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: 100%;
+}
+
+ul {
+	padding-left: 35px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: auto;
+}
+
+ol {
+	padding-left: 35px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: auto;
+}
+
+b {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: auto;
+}
+
+details {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: var(--border-radius);
+	border: 0px;
+	transition: var(--animation-duration);
+	width: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--text-bright);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+th {
+  font-weight: 600;
+}
+
+q::before {
+   content: none;
+}
+
+q::after {
+   content: none;
+}
+
+blockquote, q {
+  border-left: 4px solid var(--focus);
+  margin: 1.5em 0em;
+  padding: 0.5em 1em;
+  font-style: italic;
+}
+
+blockquote > footer {
+  font-style: normal;
+  border: 0;
+}
+
+blockquote cite {
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+}
+
+a[href^='mailto\:']::before {
+  content: '📧 ';
+}
+
+a[href^='tel\:']::before {
+  content: '📞 ';
+}
+
+a[href^='sms\:']::before {
+  content: '💬 ';
+}
+
+mark {
+  background-color: var(--highlight);
+  border-radius: 2px;
+  padding: 0px 2px 0px 2px;
+  color: #000000;
+}

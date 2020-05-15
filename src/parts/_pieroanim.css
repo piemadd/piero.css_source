@@ -1,0 +1,23 @@
+p:hover, q:hover, blockquote:hover, code:hover, form:hover, ul:hover, ol:hover, details:hover, b:hover, ul:hover, oh:hover, footer:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+	background-color: var(--background-alt);
+}
+
+p:hover, q:hover, blockquote:hover, code:hover, form:hover, ul:hover, ol:hover, details:hover, b:hover, ul:hover, oh:hover {
+	transform: scale(1.01);
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, footer:hover, img:hover {
+	transform: scale(1.03);
+}
+
+table:hover {
+	transform: scale(1.03);
+}
+
+tbody tr:nth-child(even):hover {
+	background-color: var(--table-hover);
+}
+
+tr:hover {
+	background-color: var(--table-hover);
+}
