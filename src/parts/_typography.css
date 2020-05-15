@@ -42,7 +42,7 @@ p {
 	border-radius: var(--border-radius);
 	border: 0px;
 	transition: var(--animation-duration);
-	width: max-content;
+	width: 100%;
 }
 
 q {

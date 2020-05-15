@@ -3,6 +3,7 @@ img {
   height: auto;
   border-radius: 5px;
   border: 1px solid var(--border);
+  transition: var(--animation-duration);
 }
 
 hr {
